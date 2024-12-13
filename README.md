@@ -76,7 +76,7 @@ let g:rainbow_conf = {
 \	'guis': [''],
 \	'cterms': [''],
 \	'operators': '_,_',
-\	'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
+\	'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold', 'start=/<\\ze\\S/ end=/>/ fold'],
 \	'separately': {
 \		'*': {},
 \		'markdown': {
